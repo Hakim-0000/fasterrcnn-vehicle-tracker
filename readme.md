@@ -15,10 +15,8 @@ This web app was built for detecting **Vehicle on a Traffic**, so if your images
 
 This web apps might be slow because it is using the ```'cpu'``` as device.
 
-
 ![demo](assets/gif-contoh.gif)
 
-```
-Luqman Hakim (G.211.19.0073)
-Universitas Semarang, Semarang, Indonesia.
-```
+
+<p style="text-align: center;">Luqman Hakim (G.211.19.0073)<br>Information Technology and Communication<br>Faculty Universitas Semarang<br>Semarang, Indonesia, 2023
+</p>
