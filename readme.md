@@ -6,7 +6,10 @@
 
 # Vehicle Detection in Traffic Dataset using Faster R-CNN
 
-This web app built for the purpose of deploying the machine learning model. The model trained using.
+This web app built for the purpose of deploying the machine learning model for the my University's Final Project. This project is an enhancement of previous research. The improvement made involves adding 135 images to the dataset, making the total dataset used in this research 1239 images, which are divided into 81% training data, 14% validation data, and 5% testing data.
+
+The previous research can be found in [here](https://github.com/Hakim-0000/app_satu).
+
 ### Reminder
 This web app was built for detecting **Vehicle on a Traffic**, so if your images or video isn't related to **Traffic**, you might get bad results or even doesn't get predicted object at all.
 
