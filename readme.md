@@ -17,6 +17,10 @@ This web apps might be slow because it is using the ```'cpu'``` as device.
 
 ![demo](assets/gif-contoh.gif)
 
-
-<p style="text-align: center;">Luqman Hakim (G.211.19.0073)<br>Information Technology and Communication<br>Faculty Universitas Semarang<br>Semarang, Indonesia, 2023
-</p>
+```
+Luqman Hakim (G.211.19.0073)
+Information and Communication Technology Faculty
+Universitas Semarang
+Semarang, Indonesia
+2023
+```
