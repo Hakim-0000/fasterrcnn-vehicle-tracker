@@ -19,7 +19,7 @@ This web apps might be slow because it is using the ```'cpu'``` as device.
 
 ```
 Luqman Hakim (G.211.19.0073)
-Information and Communication Technology Faculty
+Faculty of Information and Communication Technology
 Universitas Semarang
 Semarang, Indonesia
 2023
