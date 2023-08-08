@@ -42,10 +42,10 @@ def get_trained_model_v01(backbone, device): #(home_dir, backbone, device):
     model = get_model_instance_segmentation(7, backbone)
     model.to(device)
     
-    resnet50 = 'https://github.com/Hakim-0000/app_satu/releases/download/v0.1/model_40_frcnn_fpnv1.pt'
-    resnet50v2 = 'https://github.com/Hakim-0000/app_satu/releases/download/v0.1/model_40_frcnn_fpnv2.pt'
-    mobnetv3 = 'https://github.com/Hakim-0000/app_satu/releases/download/v0.1/model_40_frcnn_mobnet_large_fpn.pt'
-    mobnetv3_320 = 'https://github.com/Hakim-0000/app_satu/releases/download/v0.1/model_40_frcnn_mobnet_large_320fpn.pt'
+    resnet50 = 'https://github.com/Hakim-0000/app_satu/releases/download/1.0/model_40_frcnn_fpnv1.pt'
+    resnet50v2 = 'https://github.com/Hakim-0000/app_satu/releases/download/1.0/model_40_frcnn_fpnv2.pt'
+    mobnetv3 = 'https://github.com/Hakim-0000/app_satu/releases/download/1.0/model_40_frcnn_mobnet_large_fpn.pt'
+    mobnetv3_320 = 'https://github.com/Hakim-0000/app_satu/releases/download/1.0/model_40_frcnn_mobnet_large_320fpn.pt'
     
     resnet50_state_dict = torch.hub.load_state_dict_from_url(resnet50, map_location=torch.device('cpu'))
     resnet50v2_state_dict = torch.hub.load_state_dict_from_url(resnet50v2, map_location=torch.device('cpu'))
@@ -71,10 +71,10 @@ def get_trained_model_v02(backbone, device): #(home_dir, backbone, device):
     model = get_model_instance_segmentation(7, backbone)
     model.to(device)
     
-    resnet50 = 'https://github.com/Hakim-0000/app_satu/releases/download/v0.2/retrained_80_resnet50v1.pt'
-    resnet50v2 = 'https://github.com/Hakim-0000/app_satu/releases/download/v0.2/retrained_80_resnet50v2.pt'
-    mobnetv3 = 'https://github.com/Hakim-0000/app_satu/releases/download/v0.2/retrained_80_mobnetv3_L.pt'
-    mobnetv3_320 = 'https://github.com/Hakim-0000/app_satu/releases/download/v0.2/retrained_80_mobnetv3_L_320.pt'
+    resnet50 = 'https://github.com/Hakim-0000/fasterrcnn-vehicle-tracker/releases/download/1.1.0/rn50_80ep.pt'
+    resnet50v2 = 'https://github.com/Hakim-0000/fasterrcnn-vehicle-tracker/releases/download/1.1.0/rn50v2_80ep.pt'
+    mobnetv3 = 'https://github.com/Hakim-0000/fasterrcnn-vehicle-tracker/releases/download/1.1.0/mobnetv3L_80ep.pt'
+    mobnetv3_320 = 'https://github.com/Hakim-0000/fasterrcnn-vehicle-tracker/releases/download/1.1.0/mobnetv3L_320_80ep.pt'
     
     resnet50_state_dict = torch.hub.load_state_dict_from_url(resnet50, map_location=torch.device('cpu'))
     resnet50v2_state_dict = torch.hub.load_state_dict_from_url(resnet50v2, map_location=torch.device('cpu'))
