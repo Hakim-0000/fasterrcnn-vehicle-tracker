@@ -13,7 +13,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-import numpy as np
+# import numpy as np
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import io
@@ -21,9 +21,9 @@ import cv2
 import os
 import tempfile
 import torch
-import torchvision
-from torchvision import transforms, datasets, models
-from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
+# import torchvision
+from torchvision import transforms#, datasets, models
+# from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 
 from load_trainedModel import load_models
 
@@ -62,7 +62,7 @@ with st.sidebar:
             ('ResNet50_fpn', 'ResNet50_fpn_v2',
              'MobileNet_v3_large_fpn', 'MobileNet_v3_large_320_fpn'))
         pred_threshold = st.slider('Threshold score',
-                                   0.0, 1.0, 0.5,
+                                   0.0, 1.0, 0.75,
                                    disabled=False)
             
     else:
